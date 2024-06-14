@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login-register.css">
+    <link rel="stylesheet" href="../css/login-register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    <title>Register</title>
+    <title>Log In</title>
 </head>
 <body>
 
 <div class="container" onclick="onclick">
     <div class="top"></div>
     <div class="bottom"></div>
-    <form id="register-form" class="center">
-        <h2>Sign Up</h2>
-        <input required id="input-name" type="text" placeholder="name">
+    <form id="login-form" class="center">
+        <h2>Sign In</h2>
         <input required id="input-email" type="email" placeholder="email"/>
         <input required id="input-password" type="password" placeholder="password"/>
-        <button type="submit">Register</button>
-        <span>Already have an account? <br> <a href="./pages/login.html">Log In</a></span>
+        <button type="submit">LOG IN</button>
+        <span>Don't you have an account?<br> <a href="../index.html">Register</a></span>
     </form>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src='https://codepen.io/banik/pen/ReNNrO/3f837b2f0085b5125112fc455941ea94.js'></script>
-<script type="module" src="js/app.js"></script>
+<script type="module" src="../js/login.js"></script>
 </body>
 </html>
