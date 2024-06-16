@@ -94,9 +94,9 @@ body .container .card .content .cardContent h3 {
     margin: 20px 0 10px;
     line-height: 1.1em;
 }
-body .container .card .content .cardContent h3 span {
+body .container .card .content .cardContent h3 span p {
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: initial;
 }
 body .container .card .sci {
@@ -124,4 +124,11 @@ body .container .card:hover .content {
 body .container .card:hover .sci li {
     transform: translateY(0px);
     opacity: 1;
+}
+.cardContent {
+    text-align: center;
+}
+
+.cardContent > span {
+    margin: 6px 0;
 }
