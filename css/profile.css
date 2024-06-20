@@ -132,3 +132,67 @@ body .container .card:hover .sci li {
 .cardContent > span {
     margin: 6px 0;
 }
+li {
+    cursor: pointer;
+}
+
+#login-modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: #e6ecf0;
+    padding: 10px 0 20px 0;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+}
+
+.top-form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-form .close-modal{
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+.login-form h2{
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.login-form form input{
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: 1px solid #d0d5d8;
+    border-radius: 3px;
+    color: black;
+}
+
+.login-form form button{
+    padding: 12px 0;
+    width: 75%;
+    background-color: #5dca88;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}

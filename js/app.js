@@ -27,7 +27,7 @@ const createUser = async (e) => {
             saveLocalStorageToken("token", data.token)
             $registerForm.innerHTML = "Please Wait..."
             setTimeout( () => {
-                location.replace(location.origin + "/pages/profile.html")
+                location.replace(location.origin + "/pages/home-page.html")
             }, 2000)
         }
     } catch (error) {
